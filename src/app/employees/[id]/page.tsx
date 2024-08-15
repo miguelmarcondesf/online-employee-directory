@@ -1,8 +1,9 @@
 'use client'
 
+import React from 'react'
 import { useEffect, useState } from 'react'
 
-import getEmployee from '@/app/actions/getEmployee'
+import getEmployee from '../../actions/getEmployee'
 import { Employee } from '@/app/domain/Employee'
 
 export default function Page({ params }: { params: { id: string } }) {
